@@ -48,7 +48,7 @@
 
         <div class="col-md-6">
 
-        {!!Form::text('path',null,['class'=>'form-control']);!!}
+        {!!Form::file('path',null,['class'=>'form-control']);!!}
         
                 @error('path')
                 <span class="invalid-feedback" role="alert">
